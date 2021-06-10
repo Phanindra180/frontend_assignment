@@ -22,27 +22,3 @@
 ]
 
 
-function changeImage(couple) {
-    console.log("entered");
-    const bigImg = document.querySelector(".bigImage");
-    const elt_img = element.querySelector("img");
-    bigImg.src = elt_img.src;
-  
-    const title = element.querySelector(".title");
-    const cap = document.querySelector("figcaption");
-    cap.innerText = title.innerText;
-  }
-
-const cat = 
-const couple = document.querySelector("#couple");
-const bali = document.querySelector("#bali");
-const NextByk = document.querySelector("#NextByk");
-const interns = document.querySelector("#interns");
-
-
-
-document.querySelector("#cat").addEventListener("click", cat);
-document.querySelector("#couple").addEventListener("click", couple);
-document.querySelector("#bali").addEventListener("click", bali);
-document.querySelector("#NextByk").addEventListener("click", NextByk);
-document.querySelector("#interns").addEventListener("click", interns);
