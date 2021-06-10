@@ -1,0 +1,50 @@
+.iconDetails {
+  margin-left: 2%;
+  object-fit: cover;
+  border-radius: 8%;
+  height: 3vw;
+  width: 3vw;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 2.5vw;
+  width: 18vw;
+  gap: 0.5vw;
+  margin: 0.5vw;
+}
+
+div.title {
+  float: left;
+}
+.container_active {
+  background-color: rgb(32, 95, 178) !important;
+  color: white;
+}
+li.container:hover {
+  background-color: rgb(32, 156, 178);
+  color: white;
+}
+
+.container2 {
+  position: absolute;
+  top: 5vh;
+  right: 20vw;
+}
+.container0 {
+  position: absolute;
+  top: 5vh;
+  right: 52vw;
+}
+.bigImage {
+  margin-left: 2%;
+  object-fit: cover;
+  border-radius: 1%;
+  height: 80vh;
+  width: 30vw;
+}
+figcaption {
+  padding: 2px;
+  text-align: center;
+}
